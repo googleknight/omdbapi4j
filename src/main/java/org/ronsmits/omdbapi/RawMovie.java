@@ -53,7 +53,14 @@ class RawMovie {
 	}
 	public void setAwards(String awards) {
 		this.awards = awards;
+	}	
+	public String getYear() {
+		return year;
 	}
+	public String getReleased() {
+		return released;
+	}
+
 	@XmlElement(name = "Title")
 	protected String title;
 	@XmlElement(name = "Genre")
