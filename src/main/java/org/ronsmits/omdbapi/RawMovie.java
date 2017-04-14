@@ -99,4 +99,14 @@ class RawMovie {
 	protected String language;
 	@XmlElement(name="Awards")
 	private String awards;
+	@XmlElement(name="BoxOffice")
+	private String BoxOffice;
+	@XmlElement(name="Production")
+	private String Production;
+	@XmlElement(name="Website")
+	private String Website;
+	@XmlElement(name="Ratings")
+	private Object Ratings;
+	@XmlElement(name="DVD")
+	private String DVD;
 }
